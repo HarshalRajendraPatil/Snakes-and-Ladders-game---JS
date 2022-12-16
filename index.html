@@ -1,0 +1,1360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--meta tags-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Title-->
+    <title>Snakes and Ladders</title>
+
+    <!--Custom style sheet-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="inner-cont">
+        <div class="left-portion">
+          <div class="game-title">
+            <img src="images/gameLogo.png" class="game-logo" alt="" srcset="" />
+          </div>
+          <div class="starting-content">
+            <div class="chance-indi">
+              <h3 class="indication">Player 1 Chance:</h3>
+            </div>
+            <div class="dice">
+              <img src="images/dice1.png" alt="" srcset="" class="p1-dice" />
+              <img src="images/dice1.png" alt="" srcset="" class="p2-dice" />
+              <span class="p1-name">
+                <p class="p1">Player no. 1</p>
+                <p class="p2">Player no. 2</p>
+              </span>
+            </div>
+            <button id="roll" class="roll-dice">p-1 chance</button>
+          </div>
+        </div>
+        <div class="right-portion">
+          <div class="board">
+            <img src="images/board.jpg" class="game-board" alt="" />
+          </div>
+          <div class="virtual-board">
+            <div id="on-board-1" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-2" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-3" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-4" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-5" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-6" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-7" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-8" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-9" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-10" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-11" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-12" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-13" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-14" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-15" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-16" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-17" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-18" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-19" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-20" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-21" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-22" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-23" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-24" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-25" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-26" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-27" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-28" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-29" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-30" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-31" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-32" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-33" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-34" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-35" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-36" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-37" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-38" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-39" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-40" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-41" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-42" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-43" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-44" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-45" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-46" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-47" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-48" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-49" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-50" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-51" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-52" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-53" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-54" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-55" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-56" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-57" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-58" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-59" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-60" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-61" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-62" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-63" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-64" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-65" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-66" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-67" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-68" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-69" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-70" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-71" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-72" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-73" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-74" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-75" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-76" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-77" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-78" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-79" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-80" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-81" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-82" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-83" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-84" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-85" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-86" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-87" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-88" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-89" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-90" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-91" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-92" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-93" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-94" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-95" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-96" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-97" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-98" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-99" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+            <div id="on-board-100" class="abos">
+              <img
+                src="images/Redplayer.jfif"
+                alt=""
+                srcset=""
+                class="redPlayer"
+              /><img
+                src="images/Yellowplayer.png"
+                alt=""
+                srcset=""
+                class="yellowPlayer"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1 class="over-title"></h1>
+      <button class="play-again" id="p-a">Play again</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

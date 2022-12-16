@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Secular One', sans-serif;
+}
+
+.hide{
+    z-index: 5;
+}
+
+.abos{
+    position: absolute;
+    height: 9.6vh;
+    width: 5.8vw;
+}
+
+.opa{
+    opacity: 25%;
+}
+
+#on-board-1, #on-board-20, #on-board-21, #on-board-41, #on-board-40, #on-board-60, #on-board-61, #on-board-81, #on-board-80, #on-board-100{
+    left: 4.875rem; text-align: center; padding-top: 1vw;
+}
+
+#on-board-2, #on-board-39, #on-board-42, #on-board-79, #on-board-82, #on-board-19, #on-board-22, #on-board-59, #on-board-62, #on-board-99{
+    left: 10.725rem; text-align: center; padding-top: 1vw;
+}
+
+#on-board-3, #on-board-18, #on-board-23, #on-board-38, #on-board-43, #on-board-58, #on-board-63, #on-board-78, #on-board-83, #on-board-98{
+    left: 16.575rem; text-align: center; padding-top: 1vw;
+}
+
+#on-board-4, #on-board-17, #on-board-24, #on-board-37, #on-board-44, #on-board-57, #on-board-64, #on-board-77, #on-board-84, #on-board-97{
+    left: 22.35rem;  text-align: center; padding-top: 1vw;
+}
+
+#on-board-5, #on-board-16, #on-board-25, #on-board-36, #on-board-45, #on-board-56, #on-board-65, #on-board-76, #on-board-85, #on-board-96{
+    left: 28rem; text-align: center; padding-top: 1vw; 
+}
+
+#on-board-6, #on-board-15, #on-board-26, #on-board-35, #on-board-46, #on-board-55, #on-board-66, #on-board-75, #on-board-86, #on-board-95{
+    left: 33.85rem; text-align: center; padding-top: 1vw;
+}
+
+#on-board-7, #on-board-14, #on-board-27, #on-board-34, #on-board-47, #on-board-54, #on-board-67, #on-board-74, #on-board-87, #on-board-94{
+    left: 39.55rem; text-align: center; padding-top: 1vw;
+}
+
+#on-board-8, #on-board-13, #on-board-28, #on-board-33, #on-board-48, #on-board-53, #on-board-68, #on-board-73, #on-board-88, #on-board-93{
+    left: 45.35rem; text-align: center; padding-top: 1vw;
+}
+
+#on-board-9, #on-board-12, #on-board-29, #on-board-32, #on-board-49, #on-board-52, #on-board-69, #on-board-72, #on-board-89, #on-board-92{
+    left: 51rem; text-align: center; padding-top: 1vw;
+}
+
+#on-board-10, #on-board-11, #on-board-30, #on-board-31, #on-board-50, #on-board-51, #on-board-70, #on-board-71, #on-board-90, #on-board-91{
+    left: 56.77rem; text-align: center; padding-top: 1vw;
+}
+
+#on-board-1, #on-board-2, #on-board-3, #on-board-4, #on-board-5, #on-board-6, #on-board-7, #on-board-8, #on-board-9, #on-board-10{
+    bottom: 1.0625rem; text-align: center; padding-top: 1vw;
+}
+
+#on-board-11, #on-board-12, #on-board-13, #on-board-14, #on-board-15, #on-board-16, #on-board-17, #on-board-18, #on-board-19, #on-board-20{
+    bottom: 5.625rem; text-align: center; padding-top: 1vw;
+}
+
+#on-board-21, #on-board-22, #on-board-23, #on-board-24, #on-board-25, #on-board-26, #on-board-27, #on-board-28, #on-board-29, #on-board-30{
+    bottom: 10rem; text-align: center; padding-top: 1vw;
+}
+
+#on-board-31, #on-board-32, #on-board-33, #on-board-34, #on-board-35, #on-board-36, #on-board-37, #on-board-38, #on-board-39, #on-board-40{
+    bottom: 14.375rem; text-align: center; padding-top: 1vw;
+}
+
+#on-board-41, #on-board-42, #on-board-43, #on-board-44, #on-board-45, #on-board-46, #on-board-47, #on-board-48, #on-board-49, #on-board-50{
+    bottom: 19.0625rem; text-align: center; padding-top: 1vw;
+}
+
+#on-board-51, #on-board-52, #on-board-53, #on-board-54, #on-board-55, #on-board-56, #on-board-57, #on-board-58, #on-board-59, #on-board-60{
+    bottom: 19.375rem; text-align: center; padding-top: 1vw;
+}
+
+#on-board-51, #on-board-52, #on-board-53, #on-board-54, #on-board-55, #on-board-56, #on-board-57, #on-board-58, #on-board-59, #on-board-60{
+    bottom: 23.4375rem; text-align: center; padding-top: 1vw;
+}
+
+#on-board-61, #on-board-62, #on-board-63, #on-board-64, #on-board-65, #on-board-66, #on-board-67, #on-board-68, #on-board-69, #on-board-70{
+    bottom: 28.125rem; text-align: center; padding-top: 1vw;
+}
+
+#on-board-71, #on-board-72, #on-board-73, #on-board-74, #on-board-75, #on-board-76, #on-board-77, #on-board-78, #on-board-79, #on-board-80{
+    bottom: 32.5rem; text-align: center; padding-top: 1vw;
+}
+
+#on-board-81, #on-board-82, #on-board-83, #on-board-84, #on-board-85, #on-board-86, #on-board-87, #on-board-88, #on-board-89, #on-board-90{
+    bottom: 36.875rem; text-align: center; padding-top: 1vw;
+}
+
+#on-board-91, #on-board-92, #on-board-93, #on-board-94, #on-board-95, #on-board-96, #on-board-97, #on-board-98, #on-board-99, #on-board-100{
+    bottom: 41.25rem;  text-align: center; padding-top: 1vw;
+}
+
+.redPlayer{
+    position: absolute;
+    height: 5vh;
+    width: 3vw;
+    opacity: 0;
+}
+
+.yellowPlayer{
+    opacity: 0;
+    position: absolute;
+    height: 5vh;
+    width: 3vw;
+    padding-right: 10px;
+}
+
+.container{
+    position: relative;
+}
+
+.left-portion{
+    z-index: 3;
+    text-align: center;
+    position: absolute;
+    display: block;
+    width: 30vw;
+    height: 100vh;
+    background-color: #000;
+}
+
+.game-logo{
+    height: 25vh;
+    width: 25vw;
+}
+
+.game-title{
+    margin: 1.125rem 0 0 2rem;
+}
+
+.starting-content{
+    margin-top: 2vh;
+    height: 62vh;
+    width: 30vw;
+}
+
+.chance-indi{
+    text-align: center;
+}
+
+.indication{
+    font-size: 3vw;
+    font-weight: bolder;
+    color: white;
+    margin: 7vh 0;
+}
+
+.dice{
+    margin-left: 25px;
+
+}
+
+.p2-dice{
+    margin-left: 4vw;
+}
+
+.p1-dice, .p2-dice{
+    width: 10vw;
+    height: 20vh;
+}
+
+.p1-name{
+    font-size: 2vw;
+    color: white;
+    margin-left: 4vw;
+}
+
+.p1-name p{
+    display: inline;
+}
+
+.p1{
+    float: left;
+}
+
+.roll-dice{
+    width: 15vw;
+    height: 7vh;
+    font-size: 2vw;
+    margin: 2.5vw auto 0;
+}
+
+.right-portion{
+    z-index: 3;
+    display: block;
+    position: absolute;
+    left: 30vw;
+    width: 70vw;
+    height: 100vh;
+    background-color: red;
+}
+
+.board{
+    text-align: center;
+    margin:20px auto 0;
+}
+
+.game-board{
+    height: 95vh;
+    width: 60vw;
+}
+
+#on-board-1 .redPlayer{
+    opacity: 100;
+}
+
+#on-board-1 .yellowPlayer{
+    opacity: 100;
+}
+
+.over-title{
+    font-size: 3vw;
+    font-weight: bold;
+    position: absolute;
+    top: 18vw;
+    left: 47vw;
+    color: red;
+}
+
+.play-again{
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    text-align: center;
+    font-size: 2vw;
+    width: 12vw;
+    height: 8vh;
+}
